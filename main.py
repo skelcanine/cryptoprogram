@@ -16,7 +16,7 @@ def generate_key_schedule(key, num_rounds):
         # Perform a left shift by 3 bits on the key value
         key = (key << 3) | (key >> (32 - 3))
 
-        # XOR the key value with the round number
+        # XOR the key value with the round numberxx
         key ^= i
 
         # Convert the updated key value to a bytes object
