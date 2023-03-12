@@ -72,7 +72,7 @@ def xor_shift_decrypt(ciphertext, key_schedule):
 
         # Add the shifted character to the plaintext string
         plaintext += shifted_char
-    # test test
+    # test 
     # print("Cipher bytes:", byte_array_of_cipher)
     # Return the decrypted plaintext string
     return plaintext
